@@ -1,5 +1,9 @@
+import java.util.Scanner;
 public class HW {
     public static void main(String[] args) {
-        System.out.println("Hello," + "\n" + "TeachMeSkills group");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите ваше имя:");
+        String name = scanner.next();
+        System.out.println("Hello, " + name);
     }
 }
